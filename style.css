@@ -1,0 +1,77 @@
+body {
+    text-align: center;
+    background: pink;
+
+}
+
+.color {
+    background-color: Black;
+}
+
+.button {
+    color: black;
+    height: 35px;
+
+    background: rgb(255, 160, 203);
+    background: linear-gradient(90deg, rgba(255, 160, 203, 1) 30%, rgba(223, 144, 255, 1) 68%, rgba(188, 254, 255, 1) 100%);
+    border: none;
+
+}
+
+button:before {
+    height: 0%;
+    width: 2px;
+}
+
+button:hover {
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5),
+        -4px -4px 6px 0 rgba(116, 125, 136, .5),
+        inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
+        inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+
+h1 {
+    color: red;
+}
+
+dt {
+    color: red;
+}
+
+dd {
+    color: red;
+}
+
+text {
+    color: #f72a2a;
+    font-size: 20px;
+}
+
+img {
+    height: 200px;
+    width: 250px;
+    border-color: black;
+    border-style: solid;
+    transition: transform .2s;
+}
+
+button {
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+p {
+    color: #4527A0;
+}
+
+a:hover {
+    color: blue;
+}
+
+p:hover {
+    color: white
+}
